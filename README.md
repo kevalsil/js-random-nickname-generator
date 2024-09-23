@@ -5,7 +5,7 @@
 ```
 let nickname = '';
 
-fetch('https://raw.githubusercontent.com/kevalsil/js-random-nickname-generator/main/randomNicknameGenerator.js')
+fetch('https://raw.githubusercontent.com/koremin/js-random-nickname-generator/main/randomNicknameGenerator.js')
     .then(response => response.text())
     .then(scriptContent => {
         eval(scriptContent);
